@@ -1,0 +1,1 @@
+addSbtPlugin("org.scalaxb" % "sbt-scalaxb" % "1.7.1")

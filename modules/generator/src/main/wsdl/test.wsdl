@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wsdl:definitions name="Test"
+                  targetNamespace="http://tempuri.org/"
+                  xmlns:tt="http://tempuri.org/"
+                  xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+
+    <wsdl:documentation>
+        The test wsdl.
+    </wsdl:documentation>
+
+    <wsdl:types>
+        <schema elementFormDefault="qualified"
+                targetNamespace="http://tempuri.org/"
+                xmlns="http://www.w3.org/2001/XMLSchema">
+            <include schemaLocation="schema/World.xsd" />
+        </schema>
+    </wsdl:types>
+
+    <wsdl:message name="GetFlightGroupResponse">
+        <wsdl:part name="fr" element="tt:FailureResponse" />
+    </wsdl:message>
+</wsdl:definitions>

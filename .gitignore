@@ -1,0 +1,8 @@
+/project/project/
+/project/target/
+/target/
+*.iml
+.idea/
+target
+target/
+.DS_STORE
